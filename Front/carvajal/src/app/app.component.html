@@ -1,0 +1,27 @@
+
+<body>
+  <main>
+    <div class="productList">
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Cantidad Actual</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cliente</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of productos">
+            <td>{{item.name}}</td>
+            <td>{{item.stock}}</td>
+            <td>{{item.price}}</td>
+            <td>{{item.client.identification}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+
+<router-outlet></router-outlet>

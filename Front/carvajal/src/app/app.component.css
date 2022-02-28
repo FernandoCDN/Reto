@@ -1,0 +1,14 @@
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.productList
+{
+    margin: 20px;
+    width: 70VW;
+    border: 1px solid black;
+    height: 75vh;
+}

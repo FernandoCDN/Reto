@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+header h1
+{
+    background-color: #81A52B;
+    color: white;
+    padding-left: 30px;
+}
+
+header
+{
+    background-color: #81A52B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img
+{
+   height: 120px;
+}
+
+footer
+{
+    background-color: gray;
+    height: 9vh;
+}
